@@ -5,7 +5,7 @@ class Hash
     array = []
     
     arguments.each do |x|
-      .each do |key, value| 
+      self.each do |key, value| 
         if value == x
           array << key
         end
